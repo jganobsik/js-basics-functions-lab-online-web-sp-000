@@ -23,6 +23,13 @@ function distanceTravelledInFeet(start, end) {
 }
 
 function calculatesFarePrice(start, end) {
-  
+    let blocks = end - start;
+    let feet = distanceTravelledInFeet(blocks);
+    let answer;
+    if(feet < 2500){
+    let deducted = feet - 400;
+    let 
+    }
+    return answer;
 }
 
