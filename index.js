@@ -30,6 +30,9 @@ function calculatesFarePrice(start, end) {
     let deducted = feet - 400;
     let 
     }
+    else {
+      answer = ''
+    }
     return answer;
 }
 
