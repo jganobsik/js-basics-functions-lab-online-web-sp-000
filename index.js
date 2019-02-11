@@ -9,4 +9,6 @@ function distanceFromHqInBlocks (distance) {
   }
   return answer;
 }
+
+function 
  
