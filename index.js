@@ -21,3 +21,8 @@ function distanceTravelledInFeet(start, end) {
   let answer = blocks * 264;
   return Math.abs(answer);
 }
+
+function calculatesFarePrice(start, end) {
+  
+}
+
