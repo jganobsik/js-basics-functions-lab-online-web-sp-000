@@ -10,5 +10,10 @@ function distanceFromHqInBlocks (distance) {
   return answer;
 }
 
+function distanceFromHqInFeet(distance){
+let blocks = distanceFromHqInBlocks(distance);
+let answer = blocks * 264;
+return answer;
+}
+
 function 
- 
