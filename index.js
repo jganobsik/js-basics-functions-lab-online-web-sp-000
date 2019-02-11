@@ -26,17 +26,20 @@ function calculatesFarePrice(start, end) {
     let blocks = end - start;
     let feet = distanceTravelledInFeet(blocks);
     let answer;
-    if(feet < 2500) {
-      if(feet > 2000) {
-        answer = 25;
+    if (feet < 2500) {
+          if(feet > 2000) {
+              answer = 25;
+          }
+          else if (feet > 400) {
+            let deducted = feet - 400;
+            answer = deducted * .02;
       }
       else {
-      let deducted = feet - 400;
-      answer = deducted * .02;
+        answer = 0;
       }
     }
     else {
-      answer = 'cannot travel that far'
+      answer = 'cannot travel that far';
     }
     return answer;
 }
