@@ -38,7 +38,7 @@ function calculatesFarePrice(start, end) {
         answer = 0;
       }
     }
-    else {
+    else if (feet > 2500) {
       answer = 'cannot travel that far';
     }
     return answer;
