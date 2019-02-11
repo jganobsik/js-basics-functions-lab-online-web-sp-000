@@ -19,5 +19,5 @@ return answer;
 function distanceTravelledInFeet(start, end) {
   let blocks = end - start;
   let answer = blocks * 264;
-  return answer;
+  return Math.abs(answer);
 }
